@@ -15,6 +15,14 @@ import F5 from "../Product img/f5.jpg";
 import F6 from "../Product img/f6.jpg";
 import F7 from "../Product img/f7.jpg";
 import F8 from "../Product img/f8.jpg";
+import n1 from '../Product img/n1.jpg'
+import n2 from '../Product img/n2.jpg'
+import n3 from '../Product img/n3.jpg'
+import n4 from '../Product img/n4.jpg'
+import n5 from '../Product img/n5.jpg'
+import n6 from '../Product img/n6.jpg'
+import n7 from '../Product img/n7.jpg'
+import n8 from '../Product img/n8.jpg'
 import { Link } from "react-router-dom";
 import { SlBag } from "react-icons/sl";
 import { SlStar } from "react-icons/sl";
@@ -274,6 +282,236 @@ function Home() {
           </div>
           <div className="product">
             <img src={F8} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Sunkissed Sundress</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section className="product_1">
+        <h2> New Arrivals</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div className="product_container">
+          <div className="product">
+            <img src={n1} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Aloha Shirt</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n2} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Summer Solstice Shirt</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n3} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Sandy Shores Tee</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n4} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Palms and Pineapples Tee</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n5} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Sunset Serenade Tee</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n6} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Ocean Breeze Top</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n7} alt="" />
+            <div className="des">
+              <span>adidas</span>
+              <h3>Breezy Palazzo Pants</h3>
+
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarFilled />
+              </i>
+              <i className="star">
+                <TbStarHalfFilled />
+              </i>
+
+              <h3>$78</h3>
+            </div>
+            <Link className="navLink" to="/Cart">
+              <SlBasket className="bag" />
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n8} alt="" />
             <div className="des">
               <span>adidas</span>
               <h3>Sunkissed Sundress</h3>
