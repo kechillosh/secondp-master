@@ -108,7 +108,7 @@ function Home() {
             <img src={F2} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Summer Solstice Shirt</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -136,7 +136,7 @@ function Home() {
             <img src={F3} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Sandy Shores Tee</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -164,7 +164,7 @@ function Home() {
             <img src={F4} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Palms and Pineapples Tee</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -192,7 +192,7 @@ function Home() {
             <img src={F5} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Sunset Serenade Tee</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -220,7 +220,7 @@ function Home() {
             <img src={F6} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Ocean Breeze Top</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -248,7 +248,7 @@ function Home() {
             <img src={F7} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Breezy Palazzo Pants</h3>
 
               <i className="star">
                 <TbStarFilled />
@@ -276,7 +276,7 @@ function Home() {
             <img src={F8} alt="" />
             <div className="des">
               <span>adidas</span>
-              <h3>Aloha Shirt</h3>
+              <h3>Sunkissed Sundress</h3>
 
               <i className="star">
                 <TbStarFilled />
