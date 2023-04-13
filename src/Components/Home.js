@@ -15,14 +15,14 @@ import F5 from "../Product img/f5.jpg";
 import F6 from "../Product img/f6.jpg";
 import F7 from "../Product img/f7.jpg";
 import F8 from "../Product img/f8.jpg";
-import n1 from '../Product img/n1.jpg'
-import n2 from '../Product img/n2.jpg'
-import n3 from '../Product img/n3.jpg'
-import n4 from '../Product img/n4.jpg'
-import n5 from '../Product img/n5.jpg'
-import n6 from '../Product img/n6.jpg'
-import n7 from '../Product img/n7.jpg'
-import n8 from '../Product img/n8.jpg'
+import n1 from "../Product img/n1.jpg";
+import n2 from "../Product img/n2.jpg";
+import n3 from "../Product img/n3.jpg";
+import n4 from "../Product img/n4.jpg";
+import n5 from "../Product img/n5.jpg";
+import n6 from "../Product img/n6.jpg";
+import n7 from "../Product img/n7.jpg";
+import n8 from "../Product img/n8.jpg";
 import { Link } from "react-router-dom";
 import { SlBag } from "react-icons/sl";
 import { SlStar } from "react-icons/sl";
@@ -41,6 +41,7 @@ function Home() {
           <div className="wrapper">
             <div className="link_wrapper">
               <button>Shop Now</button>
+
               <div className="icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,8 +53,13 @@ function Home() {
             </div>
           </div>
         </div>
-        <img src={Model} alt="model" />
+
+        <button className="mobile">Shop Now</button>
+        <div className="pic">
+          <img src={Model} alt="model" />
+        </div>
       </section>
+
       <section className="Feature">
         <div>
           <img src={f1} alt="f1" />

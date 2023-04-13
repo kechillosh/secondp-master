@@ -8,6 +8,7 @@
 
 .offer {
   position: absolute;
+
   top: 35%;
   font-weight: 1000;
   margin-left: 75px;
@@ -89,13 +90,15 @@
   left: 13%;
   transform: translate(-50%, -50%);
 }
-
-.first img {
+.pic img {
   margin-top: 5vh;
   max-width: 100%;
   width: 550px;
-  margin-left: auto;
+
   margin-right: 0;
+}
+.pic {
+  margin-left: 55vw;
 }
 
 .Feature {
@@ -106,12 +109,11 @@
 }
 
 .Feature div {
-  
   text-align: center;
   padding: 25px 15px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #d0d3d4;
-  height: 15vh;
+
   margin-bottom: 5vh;
 }
 
@@ -190,8 +192,6 @@
 }
 
 .bag {
-
- 
   font-size: 30px;
   border-radius: 40px;
   background-color: #e8f6ea;
@@ -213,9 +213,42 @@
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
-  
 }
 
 .product_1 h2 {
   font-size: 2rem;
+}
+
+@media screen and (min-width: 860px) {
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 860px) {
+  .first {
+    display: none;
+  }
+  .offer {
+    position: absolute;
+    top: auto;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .offer h2 {
+    font-size: 2rem;
+  }
+  .offer h1 {
+    font-size: 2.4rem;
+  }
+  .offer p {
+    font-size: 1.7rem;
+  }
+  .wrapper {
+    display: none;
+  }
+  .pic {
+    margin-left: auto;
+  }
 }
