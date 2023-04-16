@@ -1,9 +1,9 @@
 .first {
   background-color: #d0d3d4;
 
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-
+  margin-bottom: 2rem;
   display: flex;
 }
 
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 30%;
+  flex: 50%;
 }
 
 .offer h2 {
@@ -33,7 +33,7 @@
   display: block;
   width: 250px;
   height: 50px;
-  line-height: 50px;
+
   font-weight: bold;
   text-decoration: none;
   background: #333;
@@ -45,7 +45,7 @@
   transition: all 0.35s;
 }
 
-button:hover {
+.wrapper button:hover {
   width: 200px;
   border: 3px solid #2ecc71;
   background: transparent;
@@ -53,7 +53,7 @@ button:hover {
   cursor: pointer;
 }
 
-button:hover + {
+.wrapper button:hover + {
   border: 3px solid #2ecc71;
   right: -25%;
   cursor: pointer;
@@ -63,13 +63,16 @@ button:hover + {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 5vh;
 }
-
+.pic {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 55px;
+}
 .pic img {
   max-width: 100%;
   height: auto;
-  margin-top: 60px;
 }
 
 .Feature div {
@@ -195,13 +198,13 @@ button:hover + {
   }
 
   .offer h2 {
-    font-size: 1.2rem;
+    font-size: 38px;
   }
   .offer h1 {
-    font-size: 1.4rem;
+    font-size: 32px;
   }
   .offer p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .Feature {
@@ -241,16 +244,18 @@ button:hover + {
     }
 
     .offer h2 {
-      font-size: 0.8rem;
+      font-size: 26px;
     }
     .offer h1 {
-      font-size: 1rem;
+      font-size: 22px;
     }
     .offer p {
-      font-size: 0.6rem;
+      font-size: 13px;
     }
     .offer button {
       display: block;
+      width: 180px;
+      height: 35px;
 
       font-weight: bold;
       text-decoration: none;
@@ -261,7 +266,23 @@ button:hover + {
       letter-spacing: 1px;
       border: 3px solid #333;
       transition: all 0.35s;
-      width: auto;
     }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .offer h2 {
+    font-size: 20px;
+  }
+  .offer h1 {
+    font-size: 22px;
+  }
+  .offer p {
+    font-size: 10px;
+  }
+  .offer button {
+    width: 180px;
+    line-height: normal;
+    height: 35px;
   }
 }
