@@ -38,12 +38,9 @@ function Home() {
           <h1>Welcome to our store!</h1>
           <h2>Super Offer</h2>
           <p>Get 20% off your first purchase with code OFFER20</p>
-          <div className="wrapper">
-            <button>Shop Now</button>
-          </div>
-        </div>
 
-        <div className="pic">
+          <button>Shop Now</button>
+
           <img src={Model} alt="model" />
         </div>
       </section>

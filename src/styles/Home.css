@@ -1,9 +1,9 @@
 .first {
   background-color: #d0d3d4;
 
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 2rem;
+
   display: flex;
 }
 
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 50%;
+  flex: 30%;
 }
 
 .offer h2 {
@@ -45,29 +45,7 @@
   transition: all 0.35s;
 }
 
-.icon {
-  width: 50px;
-  height: 50px;
-  border: 3px solid transparent;
-  position: absolute;
-  transform: rotate(45deg);
-  right: 0;
-  top: 0;
-  z-index: -1;
-  transition: all 0.35s;
-}
-
-.icon svg {
-  width: 30px;
-  position: absolute;
-  top: calc(50% - 15px);
-  left: calc(50% - 15px);
-  transform: rotate(-45deg);
-  fill: #2ecc71;
-  transition: all 0.35s;
-}
-
-.wrapper button:hover {
+button:hover {
   width: 200px;
   border: 3px solid #2ecc71;
   background: transparent;
@@ -75,7 +53,7 @@
   cursor: pointer;
 }
 
-.wrapper button:hover + {
+button:hover + {
   border: 3px solid #2ecc71;
   right: -25%;
   cursor: pointer;
@@ -85,15 +63,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 5vh;
+  margin-top: 40px;
 }
-.pic {
-  display: flex;
-  justify-content: flex-end;
-}
+
 .pic img {
   max-width: 100%;
   height: auto;
+  margin-top: 60px;
 }
 
 .Feature div {
@@ -219,13 +195,13 @@
   }
 
   .offer h2 {
-    font-size: 38px;
+    font-size: 1.2rem;
   }
   .offer h1 {
-    font-size: 32px;
+    font-size: 1.4rem;
   }
   .offer p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .Feature {
@@ -265,19 +241,17 @@
     }
 
     .offer h2 {
-      font-size: 26px;
+      font-size: 0.8rem;
     }
     .offer h1 {
-      font-size: 22px;
+      font-size: 1rem;
     }
     .offer p {
-      font-size: 13px;
+      font-size: 0.6rem;
     }
     .offer button {
       display: block;
-      width: 150px;
-      height: 45px;
-      line-height: 50px;
+
       font-weight: bold;
       text-decoration: none;
       background: #333;
@@ -287,6 +261,7 @@
       letter-spacing: 1px;
       border: 3px solid #333;
       transition: all 0.35s;
+      width: auto;
     }
   }
 }
