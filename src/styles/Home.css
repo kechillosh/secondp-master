@@ -5,6 +5,7 @@
   align-items: center;
   margin-bottom: 2rem;
   display: flex;
+  min-height: 600px;
 }
 
 .offer {
@@ -12,8 +13,11 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+
   flex: 50%;
+  height: 500px;
+  text-align: center;
+  justify-content: center;
 }
 
 .offer h2 {
@@ -44,7 +48,10 @@
   border: 3px solid #333;
   transition: all 0.35s;
 }
-
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
 .wrapper button:hover {
   width: 200px;
   border: 3px solid #2ecc71;
@@ -235,7 +242,9 @@
   .pic {
     height: auto;
     width: 100%;
+    display: none;
   }
+
   @media screen and (max-width: 560px) {
     .offer {
       margin-left: 0;
@@ -244,13 +253,13 @@
     }
 
     .offer h2 {
-      font-size: 26px;
+      font-size: 36px;
     }
     .offer h1 {
-      font-size: 22px;
+      font-size: 38px;
     }
     .offer p {
-      font-size: 13px;
+      font-size: 18px;
     }
     .offer button {
       display: block;
@@ -272,17 +281,20 @@
 
 @media screen and (max-width: 400px) {
   .offer h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .offer h1 {
-    font-size: 22px;
+    font-size: 32px;
   }
   .offer p {
-    font-size: 10px;
+    font-size: 16px;
   }
   .offer button {
     width: 180px;
     line-height: normal;
     height: 35px;
+  }
+  .offer {
+    justify-content: space-evenly;
   }
 }
